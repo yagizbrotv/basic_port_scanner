@@ -5,13 +5,7 @@ git clone https://github.com/yagizbrotv/basic_port_scanner.git
 
 cd basic_port_scanner
 
-python3 basicportscanner.py
-
-Enter the ip
-
-Enter the starting port
-
-Enter the last port
+python basicportscanner.py <target_ip> <start_port> <end_port>
 
 # Result
 Open ports will be shown. With their count. 
